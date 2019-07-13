@@ -3,7 +3,7 @@ var should = require("should");
 
 var server = supertest.agent("http://localhost:3000");
 
-describe("example test",function() {
+describe("POST - /example - TEST",function() {
 
   it("should return the corresponding text with status 200",function(done){
 

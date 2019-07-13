@@ -5,7 +5,7 @@ var options = {
   method: 'POST',
   uri: 'http://localhost:3000/example',
   body: {
-      text: process.argv[2]
+      text: process.argv.slice(2).join(' ')
   },
   json: true 
 };
